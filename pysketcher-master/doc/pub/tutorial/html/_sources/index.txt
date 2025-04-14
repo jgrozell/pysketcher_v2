@@ -1,0 +1,19 @@
+
+.. Master file automatically created by doconce sphinx_dir
+
+
+Pysketcher: Create Principal Sketches of Physics Problems
+=========================================================
+
+Contents:
+
+.. toctree::
+   :maxdepth: 3
+
+   main_sketcher
+
+
+Index
+=====
+
+* :ref:`genindex`
