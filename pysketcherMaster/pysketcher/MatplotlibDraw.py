@@ -2,8 +2,8 @@ from __future__ import division
 from __future__ import unicode_literals
 from __future__ import print_function
 from __future__ import absolute_import
-from future import standard_library
-standard_library.install_aliases()
+#from __future__ import standard_library
+#standard_library.install_aliases()
 from builtins import input
 from builtins import str
 from builtins import *
@@ -442,7 +442,7 @@ ax.text(%g, %g, %s,
 """ % (x, y, repr(text), repr(alignment), fontsize))
         else:
             if not len(arrow_tip) == 2:
-                raise ValueError('arrow_tip=%s must be (x,y) pt.' % arrow)
+                raise ValueError('arrow_tip=%s must be (x,y) pt.' % arrow_tip)
             pt = arrow_tip
             self.ax.annotate(text, xy=pt, xycoords='data',
                              textcoords='data', xytext=position,
