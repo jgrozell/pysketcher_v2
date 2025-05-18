@@ -135,4 +135,4 @@ fullFig = shps.Composition({'fig':fig, 'dimensions':dimensions})
 fullFig.draw()
 
 shps.drawing_tool.display()
-shps.drawing_tool.savefig('Advanced.png')
+shps.drawing_tool.savefig('Advanced.png',crop=False)
